@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5 {
 
 .container {
   max-width: 100%;
-  margin: 0 auto;
+  margin: 20px 20px;
 }
 
 /* header styling */
@@ -179,5 +179,33 @@ footer {
   margin: 75px auto 25px;
 }
 
+/* tablet mode */
+@media (max-width: 768px) {
+    /* header styling */
+    header {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 0;
+        background-color: rgb(255, 255, 255);
+      }
 
+    header nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .logo {
+        margin: 20px 0;
+    }
+
+    /* landing section styling */
+    .landing span {
+        display: none;
+    }
+}
 
