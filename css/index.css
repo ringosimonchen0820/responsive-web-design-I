@@ -1,3 +1,183 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
 
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/* Your code starts here! */
+
+
+
+
+/* container styling */
+.container:nth-of-type(2) {
+  padding-top: 100px;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* header styling */
+header {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+header nav a {
+  color: rgb(158, 158, 158);
+  text-decoration: none;
+  margin-right: 40px;
+  transition: ease-in-out 0.2s;
+}
+
+/* landing section styling */
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 500px;
+}
+
+.landing div {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.landing div h1 {
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.landing div a {
+  text-decoration: none;
+  color: #000;
+  padding: 2px 30px;
+  border: 1px solid #000;
+}
+
+
+.landing span {
+  background-image: url(../img/header-img.png);
+  width: 400px;
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  border-radius: 50%;
+}
+
+/* body section styling */
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.body div {
+  margin: 50px 0;
+}
+
+.body .middle-img {
+  width: 100%;
+}
+
+.body div:nth-of-type(1),
+.body div:nth-of-type(2) {
+  width: 48%;
+}
+
+.body div:nth-of-type(3),
+.body div:nth-of-type(4),
+.body div:nth-of-type(5) {
+  width: 30%;
+}
+
+/* contact section styling */
+.contact {
+  margin-top: 50px;
+}
+
+.contact > * {
+  margin: 20px 0;
+}
+
+.contact a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+}
+
+/* footer section styling */
+footer {
+  text-align: center;
+  margin: 75px auto 25px;
+}
+
+
 
